@@ -1,0 +1,10 @@
+const kelvin = prompt('What is the Kelvin temperature today?');
+//Created a pop-up window i.e. prompt for the user for input, then it will assign their input to a variable//
+const celsius = kelvin - 273;
+//Defined celsius value in comparision to Kelvin//
+let fahrenheit = celsius * (9/5) + 32;
+//calculated variable of fahrenheit//
+fahrenheit = Math.floor(fahrenheit);
+//rounded fahrenheit temperature to avoid getting a decimal number//
+console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
+//Used console.log and string interpolation to log the temperature in fahrenheit to the console//
