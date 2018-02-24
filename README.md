@@ -1,2 +1,2 @@
 # Converting-Temperatures-
-Simple exercises how to switch Kelvin to Fahrenheit and Celsius 
+Simple pop-up window converting Kelvin temperature to Fahrenheit :)
